@@ -1,0 +1,43 @@
+{
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "c98c24dd-8977-47a6-a84b-bc37aa566229",
+    "data": {
+        "id": 755455,
+        "nama": "User BRI 15217",
+        "cif": "BB4Q4167055C",
+        "kategori": "INDIVIDU",
+        "kategori_nasabah": "BRI",
+        "inisial": "UB",
+        "tier": 1,
+        "children": [
+            {
+                "id": 569739,
+                "nama": "User BRI 47274",
+                "cif": "LC7E531F7302",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 2,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 30000000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "085200005099"
+            },
+            {
+                "id": 523284,
+                "nama": "User BRI 95528",
+                "cif": "W39T622D953B",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 2,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 95600000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "082300002729"
+            }
+        ]
+    }
+}
