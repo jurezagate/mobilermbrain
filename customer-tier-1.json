@@ -1,0 +1,26 @@
+{
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "88a669d9-d8a6-4ad9-9bca-a167895cb859",
+    "data": [
+        {
+            "id": 755455,
+            "nama": "User BRI 15217",
+            "cif": "BB4Q4167055C",
+            "kategori": "INDIVIDU",
+            "kategori_nasabah": "BRI",
+            "inisial": "UB",
+            "tier": 1
+        },
+        {
+            "id": 2803629,
+            "nama": "User BRI 49953",
+            "cif": "M4DBKI80518A",
+            "kategori": "INDIVIDU",
+            "kategori_nasabah": "BRI",
+            "inisial": "UB",
+            "tier": 1
+        }
+    ]
+}
