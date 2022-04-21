@@ -1,0 +1,126 @@
+{
+  "customer-detail": {
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "1f74fe51-b09b-45a6-8ebd-fd5129327c2a",
+    "data": {
+        "id": 569739,
+        "nama": "User BRI 47274",
+        "cif": "LC7E531F7302",
+        "updated_at": "2022-02-13T16:55:32.325Z",
+        "personal": {
+            "tanggal_lahir": "16 NOVEMBER 1984",
+            "usia": 37,
+            "jenis_kelamin": "LAKI_LAKI",
+            "pekerjaan": "WIRASWASTA",
+            "sektor_ekonomi": "PERD. ECERAN VOUCHER & HP",
+            "alamat_domisili": "JALANANGKASA JAYA RUMAH BAPAKEC MURHUM KOTA BAUBAU MURHUM KOTA BAU BAU",
+            "longitude": "116.35808185429117",
+            "latitude": "-8.58356375"
+        },
+        "rekening": {
+            "status_rekening": "AKTIF",
+            "nama_unit_kerja": "",
+            "produk_bri": [
+                ""
+            ],
+            "layanan_digital": [
+                "SMS Banking"
+            ]
+        },
+        "transaksi": {
+            "total_debit": 6343027430,
+            "frekuensi_debit": 3419,
+            "total_kredit": 6609662536,
+            "frekuensi_kredit": 758,
+            "total_debit_bri": 6323596722,
+            "total_kredit_bri": 4965940250,
+            "total_debit_nonbri": 10000000,
+            "total_kredit_nonbri": 1396861500
+        },
+        "simpanan": {
+            "rm": "",
+            "potensi_simpanan": 0,
+            "batas_saldo_simpanan": 615562244.76,
+            "lama_menjadi_nasabah": 126
+        },
+        "pinjaman": {
+            "kolektibilitas": "",
+            "total_outstanding": 0,
+            "segmen_pinjaman": "",
+            "potensi_pinjaman": 266635106,
+            "total_plafon": 0
+        }
+    }
+},
+  "customer-hierarchical-tree": {
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "c98c24dd-8977-47a6-a84b-bc37aa566229",
+    "data": {
+        "id": 755455,
+        "nama": "User BRI 15217",
+        "cif": "BB4Q4167055C",
+        "kategori": "INDIVIDU",
+        "kategori_nasabah": "BRI",
+        "inisial": "UB",
+        "tier": 1,
+        "children": [
+            {
+                "id": 569739,
+                "nama": "User BRI 47274",
+                "cif": "LC7E531F7302",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 2,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 30000000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "085200005099"
+            },
+            {
+                "id": 523284,
+                "nama": "User BRI 95528",
+                "cif": "W39T622D953B",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 2,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 95600000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "082300002729"
+            }
+        ]
+    }
+},
+  "customer-tier-1": {
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "88a669d9-d8a6-4ad9-9bca-a167895cb859",
+    "data": [
+        {
+            "id": 755455,
+            "nama": "User BRI 15217",
+            "cif": "BB4Q4167055C",
+            "kategori": "INDIVIDU",
+            "kategori_nasabah": "BRI",
+            "inisial": "UB",
+            "tier": 1
+        },
+        {
+            "id": 2803629,
+            "nama": "User BRI 49953",
+            "cif": "M4DBKI80518A",
+            "kategori": "INDIVIDU",
+            "kategori_nasabah": "BRI",
+            "inisial": "UB",
+            "tier": 1
+        }
+    ]
+}
+}
