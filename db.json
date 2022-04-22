@@ -25,6 +25,7 @@
           "jumlah_transaksi": 30000000,
           "frekuensi_transaksi": 1,
           "nomor_telepon": "085200005099"
+          "has_children": true
         },
         {
           "id": 523284,
