@@ -24,7 +24,7 @@
           "status_tindaklanjut": "0",
           "jumlah_transaksi": 30000000,
           "frekuensi_transaksi": 1,
-          "nomor_telepon": "085200005099"
+          "nomor_telepon": "085200005099",
           "has_children": true
         },
         {
@@ -38,7 +38,8 @@
           "status_tindaklanjut": "0",
           "jumlah_transaksi": 95600000,
           "frekuensi_transaksi": 1,
-          "nomor_telepon": "082300002729"
+          "nomor_telepon": "082300002729",
+          "has_children": false
         }
       ]
     }
