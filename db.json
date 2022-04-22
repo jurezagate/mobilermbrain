@@ -204,5 +204,87 @@
             }
         ]
     }
+},
+  "customer-hierarchical-tree-tier2": {
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "3bfcf219-35e9-4297-92bc-dfe1ba7bf18a",
+    "data": {
+        "id": 569739,
+        "nama": "User BRI 47274",
+        "cif": "LC7E531F7302",
+        "kategori": "INDIVIDU",
+        "kategori_nasabah": "BRI",
+        "inisial": "UB",
+        "tier": 2,
+        "children": [
+            {
+                "id": 1511228,
+                "nama": "User BRI 3317",
+                "cif": "AD0DZ2427591",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 3,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 102000000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "082300004146"
+            },
+            {
+                "id": 2411384,
+                "nama": "User BRI 10909",
+                "cif": "AD6TN35A1259",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 3,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 103000000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "081200001507"
+            },
+            {
+                "id": 174376,
+                "nama": "User BRI 95393",
+                "cif": "WD4R810D60A8",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 3,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 112000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "082300009916"
+            },
+            {
+                "id": 1205673,
+                "nama": "User BRI 31106",
+                "cif": "HD0BX168909C",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 3,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 1140000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "081200009801"
+            },
+            {
+                "id": 58159,
+                "nama": "User BRI 99625",
+                "cif": "ZA2C85948302",
+                "kategori": "INDIVIDU",
+                "kategori_nasabah": "BRI",
+                "inisial": "UB",
+                "tier": 3,
+                "status_tindaklanjut": "0",
+                "jumlah_transaksi": 138000,
+                "frekuensi_transaksi": 1,
+                "nomor_telepon": "082100001212"
+            }
+        ]
+    }
 }
 }
