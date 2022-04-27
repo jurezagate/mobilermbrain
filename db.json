@@ -1,4 +1,61 @@
 {
+  "customer-detail": {
+    "status_code": 200,
+    "status_desc": "Success",
+    "message": "Success",
+    "request_id": "962f24ef-e8d4-474f-b8f9-8c08c83e9685",
+    "data": {
+      "id": 973951,
+      "nama": "User BRI 66037",
+      "cif": "PABD851F0826",
+      "status_tindaklanjut": "0",
+      "jumlah_transaksi": 9410000,
+      "frekuensi_transaksi": 1,
+      "updated_at": "2022-02-13T16:55:32.325Z",
+      "personal": {
+        "tanggal_lahir": "22 APRIL 1973",
+        "usia": 48,
+        "jenis_kelamin": "LAKI_LAKI",
+        "pekerjaan": "PEGAWAI SWASTA",
+        "sektor_ekonomi": "JASA KEGIATAN LAINNYA",
+        "alamat_domisili": "JALN ANGKASA JAYA RUMAH BAPAKIRIMAU SIRIMAU AMBON KOT.",
+        "longitude": "116.35808185429117",
+        "latitude": "-8.58356375"
+      },
+      "rekening": {
+        "status_rekening": "AKTIF",
+        "nama_unit_kerja": "KCP  WAIHAONG",
+        "produk_bri": [
+          "KUR RITEL NEW BUNGA EFFEKTIF"
+        ],
+        "layanan_digital": []
+      },
+      "transaksi": {
+        "total_debit": 10394458629,
+        "frekuensi_debit": 6153,
+        "total_kredit": 10634748526,
+        "frekuensi_kredit": 12338,
+        "total_debit_bri": 10177436624,
+        "total_kredit_bri": 9681104750,
+        "total_debit_nonbri": 218188513,
+        "total_kredit_nonbri": 712647750
+      },
+      "simpanan": {
+        "tier_diatasnya": "User BRI 66037",
+        "rm": "",
+        "potensi_simpanan": 0,
+        "batas_saldo_simpanan": 629701155.22,
+        "lama_menjadi_nasabah": 334
+      },
+      "pinjaman": {
+        "kolektibilitas": "LANCAR",
+        "total_outstanding": 125727541,
+        "segmen_pinjaman": "KECIL",
+        "potensi_pinjaman": 260072884,
+        "total_plafon": 250000000
+      }
+    }
+  },
   "customer-hierarchical-tree": {
     "status_code": 200,
     "status_desc": "Success",
